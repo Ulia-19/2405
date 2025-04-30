@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <meta charset="UTF-8">
+  <title>Selamat Ulang Tahun, Sayang!</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffe6e6, #ffe0f0);
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #e60073;
+      font-size: 3em;
+      animation: bounce 1.5s infinite alternate;
+    }
+    p {
+      font-size: 1.5em;
+      margin-top: 30px;
+      line-height: 1.6;
+    }
+    .heart {
+      color: red;
+      font-size: 2em;
+      animation: pulse 1s infinite;
+    }
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-15px); }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .gif {
+      margin-top: 30px;
+      border-radius: 15px;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Barakallahu Fil Umrik ya Bii! 🎂</h1>
+
+  <p>
+    Hari ini kamu bertambah tua, tapi tenang... kamu masih lebih muda dari dinosaurus. 🦕<br><br>
+    Terima kasih sudah lahir ke dunia ini, terutama ke dunia aku.😅<br><br>
+    Semoga kamu makin sukses, makin sabar menghadapi aku (yang kadang drama), dan makin ganteng (meskipun itu kayaknya udah batas maksimal 😘).<br><br>
+    <span class="heart">❤️</span><br>
+    Jangan lupa traktir ya, aku kan hadiah ulang tahunmu yang paling berharga 😎
+  </p>
+  
+  <div class="foto-bingkai">
+    <img src="foto 2.jpg" alt="Foto Lucu">
+  </div>
+
+  <!-- Efek Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script>
+    // Confetti akan muncul setiap 2 detik untuk efek perayaan berulang
+    setInterval(() => {
+      confetti({
+        particleCount: 100,
+        spread: 80,
+        origin: { y: 0.6 }
+      });
+    }, 3000);
+  </script>
+
+<div class="birthday-card">
+    
+    <h1>Nabiul Ibad!</h1>
+    <img src="foto.jpg" alt="Foto Cowok Ulang Tahun" class="foto-ultah">
+
+    <div class="ucapan">
+
+      <h2 class="highlight"><span class="heart">❤️</span><span class="heart">❤️</span><span class="heart">❤️</span><span class="heart">❤️</span><span class="heart">❤️</span><span class="heart">❤️</span></h2>
+
+      <p>
+        <span class="emoji">🎉</span>Semoga semua harapan dan cita-citamu segera tercapai. Kamu adalah pribadi yang luar biasa, dan aku yakin masa depan yang cerah sudah menantimu di depan sana. Jangan lupa terus bersyukur dan tetap rendah hati.<span class="emoji">🎈</span>
+      </p>
+
+      <p>
+        Di hari ulang tahunmu ini<span class="emoji">🎂</span>, aku doakan semoga kamu selalu diberikan kesehatan, kebahagiaan, dan kelancaran dalam setiap langkahmu. Semoga kamu dikelilingi oleh orang-orang baik, diberi rezeki yang lancar, dan selalu diberi kekuatan untuk menghadapi tantangan hidup.<span class="emoji">🎉</span>
+      </p>
+
+      <p>
+        Terima kasih sudah menjadi dirimu yang hebat<span class="emoji">🥳</span>. Tetap semangat dalam mengejar impian dan jangan pernah ragu dengan kemampuanmu. Dunia ini butuh orang seperti kamu!<span class="emoji">🎉</span>
+      </p>
+    </div>
+    <img src="foto 1.jpg" alt="Foto Cowok Ulang Tahun" class="foto-ultah">
+    <p class="from">— Dengan tulus, <strong>Ay💖</strong></p>
+    <p>24-05-2025</p>
+  </div>
+  <div style="margin-top: 30px;">
+    <span class="emoji">🎂</span>
+    <span class="emoji">🎁</span>
+    <span class="emoji">💖</span>
+    <span class="emoji">🥳</span>
+    <span class="emoji">🎈</span>
+  </div>
+
+  <div class="container-bingkai">
+    <div class="foto-bingkai1">
+      <img src="foto 3.jpg" alt="Foto 1">
+    </div>
+    <div class="foto-bingkai1">
+      <img src="foto 4.jpg" alt="Foto 2">
+    </div>
+    <div class="foto-bingkai1">
+      <img src="foto 5.jpg" alt="Foto 3">
+    </div>
+    <div class="foto-bingkai1">
+      <img src="foto 1.jpg" alt="Foto 4">
+    </div>
+  </div>
+
+
+  <!-- Ganti file musik di src -->
+  <audio controls autoplay loop>
+    <source src="happy-birthday-254480.mp3" type="audio/mpeg" />
+    Browsermu tidak mendukung audio 😢
+  </audio>
+  
+
+    
+</body>
+</html>
